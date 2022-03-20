@@ -11,5 +11,6 @@
 For more detailed packages, refer to [MDNet](https://github.com/hyeonseobnam/py-MDNet).<br> 
 
 ## Pretrained model for APFNet<br>
-In our tracker, we use MDNet as our backbone and extend to multi-modal tracker.We use imagenet-vid.pth as our pretrain model.Then we use this with the training model in GTOT and RGBT234 models to pre-train our dual-stream MDNet_RGBT backbone network.And thus we get the GTOT.pth and RGBT234.pth.<br>
+In our tracker, we use MDNet as our backbone and extend to multi-modal tracker.We use imagenet-vid.pth as our pretrain model.Then we use this with the training model in GTOT and RGBT234 models to pre-train our dual-stream MDNet_RGBT backbone network.And thus we get the **GTOT.pth** and **RGBT234.pth**.And Then We load the basic model to
+train Our network and get the final model.Our model is available at [pth model](https://pan.baidu.com/s/12aR8vmPx7KiHDFkAr7VfwQ).The extract code is **mmic**.<br>
 
