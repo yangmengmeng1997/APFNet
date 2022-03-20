@@ -15,4 +15,13 @@ In our tracker, we use MDNet as our backbone and extend to multi-modal tracker.W
 train Our network and get the final model.Our model is available at [pth model](https://pan.baidu.com/s/12aR8vmPx7KiHDFkAr7VfwQ).The extract code is **mmic**.<br>
 
 ## Run tracker<br>
-In the tracking/Run.py file, you need to change dataset path, model_path and result_path In the tracking/Run.py file. You can load the model GTOT_ALL_Transformer for testing RGBT234 and LasHeR. And use the RGBT234_ALL_Transformer for testing the GTOT.
+In the tracking/Run.py file, you need to change dataset path, model_path and result_path In the tracking/Run.py file. You can load the model GTOT_ALL_Transformer for testing RGBT234 and LasHeR. And use the RGBT234_ALL_Transformer for testing the GTOT.<br>
+
+## Train<br>
+There Stage train:<br>
+At First you should use the GTOT and RGBT234 datasets with challenge tags,you can find the datasets in (https://github.com/mmic-lcl/Datasets-and-benchmark-code) run prepro_data generate a xxx.pkl file to store the data path.
+<ol>
+  <li>  </li>	
+  <li> pytorch>=1.0 </li>	
+  <li> some others library functions </li>	
+</ol>
