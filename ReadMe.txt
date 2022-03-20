@@ -1,6 +1,7 @@
-Deep Adaptive Fusion Network for High Performance RGBT Tracking
+##Attribute-Based Progressive Fusion Network for RGBT Tracking
+hr
 This project is created base on
--- RT-MDNet: Real-Time Multi-Domain Convolutional Neural Network Tracker Created by Ilchae Jung, Jeany Son, Mooyeol Baek, and Bohyung Han
+-- MDNet: Real-Time Multi-Domain Convolutional Neural Network Tracker Created by Ilchae Jung, Jeany Son, Mooyeol Baek, and Bohyung Han
 
 Introduction
 RT-MDNet is the real-time extension of MDNet and is the state-of-the-art real-time tracker. Detailed description of the system is provided by our project page and paper
