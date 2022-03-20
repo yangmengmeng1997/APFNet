@@ -16,6 +16,7 @@ train Our network and get the final model.Our model and the pretrain model is av
 
 ## Run tracker<br>
 In the tracking/Run.py file, you need to change dataset path, model_path and result_path In the tracking/Run.py file. You can load the model GTOT_ALL_Transformer for testing RGBT234 and LasHeR. And use the RGBT234_ALL_Transformer for testing the GTOT.<br>
+> python ./tracking/Run.py 
 
 ## Train<br>
 There Stage train:<br>
