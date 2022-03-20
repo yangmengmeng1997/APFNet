@@ -1,0 +1,46 @@
+use_gpu: true
+
+# data path
+data_path: "pretrain/data/RGBT234.pkl"
+
+# model path
+init_model_path: "models/imagenet-vgg-m.mat"
+model_path: "models/mdnet_imagenet_vid.pth"
+
+# input size
+img_size: 107
+padding: 16
+
+# batch size
+batch_frames: 8
+batch_pos: 32
+batch_neg: 96
+batch_accum: 50 # 1
+
+# training examples sampling
+trans_pos: 0.1
+scale_pos: 1.3
+trans_neg: 2
+scale_neg: 1.6
+overlap_pos: [0.7, 1]
+overlap_neg: [0, 0.5]
+
+# augmentation
+flip: True
+rotate: 30
+blur: 7
+
+# training add new architecher stage1
+lr: 0.0001
+grad_clip: 10
+
+##stage1 
+lr_mult: {"fc": 5,'layers': 10}
+ft_layers: ["layers", "fc"]
+n_cycles: 100
+
+#stage2 ensemble
+# pretrain_opts['ft_layers'] = ['ensemble','fc','conv']
+# pretrain_opts['lr_mult'] = {'ensemble':10,'fc':5,'conv':1}
+# pretrain_opts['n_cycles'] = 100
+
