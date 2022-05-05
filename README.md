@@ -12,7 +12,7 @@ For more detailed packages, refer to [MDNet](https://github.com/hyeonseobnam/py-
 
 ## Pretrained model for APFNet<br>
 In our tracker, we use MDNet as our backbone and extend to multi-modal tracker.We use imagenet-vid.pth as our pretrain model.Then we use this with the training model in GTOT and RGBT234 models to pre-train our dual-stream MDNet_RGBT backbone network.And thus we get the **GTOT.pth** and **RGBT234.pth**.And Then We load the basic model to
-train Our network and get the final model.Our model and the pretrain model is available at [pth model](https://pan.baidu.com/s/12aR8vmPx7KiHDFkAr7VfwQ).The extract code is **mmic**.After downloading the model, you should put it in **AAAICode/models/**<br>
+train Our network and get the final model.Our model and the pretrain model is available at [pth model](https://pan.baidu.com/s/1UmbO7QSt41d4hed4CcTJTg).The extract code is **mmic**.After downloading the model, you should put it in **AAAICode/models/**<br>
 
 ## Run tracker<br>
 In the tracking/Run.py file, you need to change dataset path, model_path and result_path In the tracking/Run.py file. You can load the model GTOT_ALL_Transformer for testing RGBT234 and LasHeR. And use the RGBT234_ALL_Transformer for testing the GTOT.<br>
